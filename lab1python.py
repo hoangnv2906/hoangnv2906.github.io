@@ -120,24 +120,3 @@ for i in range(0, len(lst)-2):
         if target_country == cuts_list[j]:
             print(cuts_list)
 
-"""for i in new_tmp_list:
-    print(i)
-for row in range(len(lst)):
-    for col in range(5):
-        temp_lst.append(new_tmp_list)"""
-
-
-"""
-output = codecs.open('data.csv', 'w', 'utf-16')
-for key in result_dct.keys():
-    output.write(key)
-    output.write('\t')
-output.write('\n')
-for value in result_dct.values():
-    output.write(str(value))
-    output.write('\t')
-output.close()
-output = codecs.open('data.csv', 'r', 'utf-16')
-print(output.read())
-output.close()
-"""
